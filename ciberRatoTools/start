@@ -1,9 +1,14 @@
 #/bin/bash
 (cd simulator; ./simulator)&
 
-sleep 3
+sleep 5
+
+(cd agent; python3 agent.py)&
+
+sleep 1
 
 (cd Viewer; ./Viewer)
 
-killall simulator GUISample
+
+killall simulator
 
