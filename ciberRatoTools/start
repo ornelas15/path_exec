@@ -1,0 +1,9 @@
+#/bin/bash
+(cd simulator; ./simulator)&
+
+sleep 3
+
+(cd Viewer; ./Viewer)
+
+killall simulator GUISample
+
