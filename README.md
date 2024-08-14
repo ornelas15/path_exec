@@ -25,14 +25,10 @@ make
 
 ## Run agent
 
-To run the simulator and Viewer, execute (at the repository ciberRatoTools):
+To run the simulator, the agent and Viewer, execute (at the repository ciberRatoTools):
 ```bash
+cd ciberRatoTools
 ./start
-```
-
-To run the python agent, execute (at the repository agent):
-```bash
-python3 agent.py
 ```
 
 Press start on the Simulator after connecting to the viewer
@@ -42,7 +38,7 @@ Press start on the Simulator after connecting to the viewer
 
 * David Ornelas
   University of Aveiro,
-  david.ornelas@ua.pt
+  david.ornelas@ua.pt  
   
 
 # CiberRato Robot Simulation Environment <br/> Universidade de Aveiro / IEETA 
