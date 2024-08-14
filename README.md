@@ -1,6 +1,6 @@
 # Path executor
 
-Path executor using the ciberrato simulation environment
+Goal: Develop a robotic agent to command a simulated mobile robot. The agent lives in a known maze and should be able to follow a path, specified by a list of coordinates, without using the GPS.
 
 
 ## Install
