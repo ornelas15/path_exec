@@ -17,17 +17,18 @@ sudo apt-get install build-essential cmake qtmultimedia5-dev
 
 Then in the repository base dir, execute:
 ```bash
+cd ciberRatoTools
 mkdir build
 cd build
 cmake ..
 make
+cd ..
 ```
 
 ## Run agent
 
 To run the simulator, the agent and Viewer, execute (at the repository ciberRatoTools):
 ```bash
-cd ciberRatoTools
 ./start
 ```
 
